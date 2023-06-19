@@ -28,7 +28,7 @@ function TaskInput ({ addTask }) {
       onKeyDown={e => handleTaskEnter(e)}
       />
 
-      <button  onClick={handelTaskButton} type="submit" class="py-2 bg-purple-900 text-purple-50 rounded-lg w-48 mt-3">Agregar tarea</button>
+      <button  onClick={handelTaskButton} type="submit" class="py-2 bg-purple-900 text-purple-50 rounded-lg w-48 mt-3">Add Task </button>
     </div>
     )
 }
